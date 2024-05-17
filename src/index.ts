@@ -6,7 +6,7 @@ const useNoneReactiveState = <Type>(defaultValue: Type) => {
 
   stateRef.current = state;
 
-  return [state, setState, stateRef.current];
+  return [state, setState, stateRef];
 };
 
 export default useNoneReactiveState;
