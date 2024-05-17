@@ -1,0 +1,29 @@
+{
+  "name": "use-none-reactive-state",
+  "version": "0.0.1-alpha",
+  "description": "solve problem with none-reactive value inside react useEffect",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buinguyenkhoi96/use-none-reactive-state.git"
+  },
+  "author": "buinguyenkhoi96@gmail.com",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/buinguyenkhoi96/use-none-reactive-state/issues"
+  },
+  "homepage": "https://github.com/buinguyenkhoi96/use-none-reactive-state#readme",
+  "devDependencies": {
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
