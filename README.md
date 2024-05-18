@@ -14,7 +14,7 @@ function Component() {
 
   useEffect(() => {
     // This will ensure u still get the latest value inside the callback
-    connection.onConnect(() => console.log(valueRef.current))
+    connection.onConnect(() => console.log(themeRef.current))
   }, [])
 }
 ```
