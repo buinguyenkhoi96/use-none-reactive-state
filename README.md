@@ -1,6 +1,6 @@
 ## Introduction
 
-use-none-reactive-state is a React custom hook to solve problem with none-reactive value inside useEffect. Read more [here](https://react.dev/learn/separating-events-from-effects#extracting-non-reactive-logic-out-of-effects). This hook come with a babel plugin so you dont have to do the extra job on modifying your code, just replace useState with useNoneReactiveState.
+use-none-reactive-state is a React custom hook to solve problem with none-reactive value inside useEffect. Read more [here](https://react.dev/learn/separating-events-from-effects#extracting-non-reactive-logic-out-of-effects). This hook come with a <b>[babel plugin](https://www.npmjs.com/package/babel-plugin-none-reactive-effect)</b> so you dont have to do the extra job on modifying your code, just replace useState with useNoneReactiveState.
 
 ### Usage example
 
