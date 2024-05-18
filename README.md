@@ -10,7 +10,7 @@ use-none-reactive-state is a React custom hook to solve problem with none-reacti
 import useNoneReactiveState from 'use-none-reactive-state'
 
 function Component() {
-  const [theme, setTheme, ThemeRef] = useNoneReactiveState('dark')
+  const [theme, setTheme, themeRef] = useNoneReactiveState('dark')
 
   useEffect(() => {
     // This will ensure u still get the latest value inside the callback
