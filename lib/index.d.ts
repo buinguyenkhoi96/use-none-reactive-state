@@ -1,3 +1,3 @@
-/// <reference types="react" />
-declare const useNoneReactiveState: <Type>(defaultValue: Type) => (Type | import("react").Dispatch<import("react").SetStateAction<Type>> | import("react").MutableRefObject<Type>)[];
+import { Dispatch, SetStateAction, MutableRefObject } from 'react';
+declare const useNoneReactiveState: <Type>(initialState: Type | (() => Type)) => [Type, Dispatch<SetStateAction<Type>>, MutableRefObject<Type>];
 export default useNoneReactiveState;
