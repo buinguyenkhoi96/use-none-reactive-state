@@ -1,6 +1,6 @@
 {
   "name": "use-none-reactive-state",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "solve problem with none-reactive value inside react useEffect",
   "main": "lib/index.js",
   "scripts": {
