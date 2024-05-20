@@ -38,7 +38,7 @@ function ChatRoom({ roomName }) {
 
   useEffect(() => {
     // This will ensure u still get the latest value inside the callback
-    connection.onConnect(() => console.log(themeRef))
+    connection.onConnect(() => console.log(themeRef.current))
 
     return () => connection.disconnect();
   }, [roomName])
